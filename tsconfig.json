@@ -8,6 +8,6 @@
     "jsx": "preserve",
     "jsxImportSource": "solid-js"
   },
-  "include": ["**/*", ".eslintrc.cjs"],
+  "include": ["**/*.astro", ".eslintrc.cjs"],
   "exclude": ["node_modules", "dist", "public"]
 }
