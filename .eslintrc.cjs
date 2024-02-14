@@ -1,7 +1,7 @@
 module.exports = {
   plugins: ['@typescript-eslint', 'tailwindcss'],
   extends: [
-    'eslint:recommended',
+    // 'eslint:recommended',
     'plugin:@typescript-eslint/recommended',
     'plugin:@typescript-eslint/recommended-requiring-type-checking',
     'plugin:astro/recommended',
@@ -23,7 +23,7 @@ module.exports = {
   ignorePatterns: ['.astro', 'dist', 'node_modules'],
   overrides: [
     {
-      files: ['*.astro'],
+      files: ['.astro'],
       parser: 'astro-eslint-parser',
       parserOptions: {
         parser: '@typescript-eslint/parser',
